@@ -1,5 +1,5 @@
 import { ImageEdge, Product as ShopifyProduct } from "../schema";
-import { Product, ProductImage } from "../../common/types/product";
+import { Product, ProductImage } from "@common/types/product";
 
 export const normalizeProductImages = ({
   edges,
